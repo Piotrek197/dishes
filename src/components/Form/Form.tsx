@@ -21,10 +21,9 @@ const Form = ({setResult}: {setResult: React.Dispatch<React.SetStateAction<DishT
     const url = "https://umzzcc503l.execute-api.us-west-2.amazonaws.com/dishes/";
 
     const handleSubmit = async () => {
-        const response = await postRequest(url, dish); //{name: "super zupka", type: "pizza", preparation_time: "01:00:00", no_of_slices: 1, diameter: 22.00}
+        const response = await postRequest(url, dish);
 
-        setResult(response.data);
-        console.log("response", response);
+        setResult(response);
     }
 
     useEffect(() => {
@@ -115,7 +114,5 @@ const Form = ({setResult}: {setResult: React.Dispatch<React.SetStateAction<DishT
     </section>
     );
 }
-
-// const ErrorMessage = ({message})
  
 export default Form;
