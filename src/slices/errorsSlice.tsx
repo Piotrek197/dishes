@@ -24,7 +24,7 @@ const errorsSlice = createSlice({
         handleOnBlurPreparationTime:    (state, action: PayloadAction<string>) => {
             const regex = /[0-9]{2}:[0-9]{2}:[0-9]{2}/;
             if(regex.test(action.payload.trim())) state.preparation_time = "";
-            else state.preparation_time = "Please provide preparation";
+            else state.preparation_time = "Please provide preparation time in good format";
         }, 
 
         handleOnBlurType:               (state, action: PayloadAction<string>) => {
