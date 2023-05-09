@@ -3,9 +3,8 @@
 This is an interview task. The goal is to create a form that sends the data to API. <br /><br/>
 [Live demo](https://tiny-entremet-d0a6b9.netlify.app)
 
-## Prerequisites
 Node: v16.13.2 <br />
-npm : v9.6.6
+npm : v9.6.6 <br />
 
 ## Instalation
 
