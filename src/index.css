@@ -61,7 +61,7 @@ button:focus-visible {
 .error-message {
   font-size: 0.9rem;
   color: #FF0800;
-  background-color: #ff9c99;/*#ff837f;*/
+  background-color: #ffada9;/*#ff837f;*/
   font-weight: bold;
   transform: translateY(0.5rem);
   transition: all 200ms ease-in-out;

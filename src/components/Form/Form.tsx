@@ -45,7 +45,6 @@ const Form = ({setResult}: {setResult: React.Dispatch<React.SetStateAction<DishT
                     <input
                     type="text"
                     id="name"
-                    className={!errors.name ? "correct" : ""}
                     role="dish-name"
                     value={dish.name}
                     onChange={e => dispatch(changeName(e.target.value))}
