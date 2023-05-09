@@ -1,0 +1,16 @@
+.app-container {
+  display:flex;
+  height:100vh;
+  
+  & > section {
+    width:50%;
+    // border: 2px solid white;
+  }
+
+}
+
+@media screen and (max-width: 750px){
+  .app-container {
+    flex-direction: column;
+  }
+}

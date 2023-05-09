@@ -1,0 +1,21 @@
+.preview-container{
+    padding:2rem;
+    
+    & > * {
+        width: 80%;
+        margin:auto;
+    }
+
+    h2{
+        font-size:2rem;
+        margin-bottom:2rem;
+    }
+
+    .input-preview, .output-preview {
+        background-color: #353535;
+        min-height: 100px;
+        padding: 1rem;
+        margin-block: 2rem;
+}
+
+}
